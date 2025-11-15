@@ -33,7 +33,7 @@ const industries: Industry[] = [
       'Interactive learning modules and assessments',
       'Engaging video content and animations for complex topics'
     ],
-    image: 'https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: '/images/industriesimage/education.png'
   },
   {
     id: 'ecommerce',
@@ -46,7 +46,7 @@ const industries: Industry[] = [
       'Personalized shopping experiences and recommendations',
       'Engaging social media content to showcase products'
     ],
-    image: 'https://images.pexels.com/photos/6169659/pexels-photo-6169659.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: '/images/industriesimage/shopping.png'
   },
   {
     id: 'realestate',
@@ -59,7 +59,7 @@ const industries: Industry[] = [
       'Targeted marketing campaigns for specific properties',
       'Engaging video tours and property showcases'
     ],
-    image: 'https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: '/images/industriesimage/realestate.png'
   },
   {
     id: 'healthcare',
@@ -72,7 +72,7 @@ const industries: Industry[] = [
       'Compliant marketing for healthcare services',
       'Professional branding for medical practices'
     ],
-    image: 'https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: '/images/industriesimage/Health.png'
   },
   {
     id: 'nonprofit',
@@ -85,7 +85,7 @@ const industries: Industry[] = [
       'Impactful visual content showcasing your work',
       'Consistent branding across all touchpoints'
     ],
-    image: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: '/images/industriesimage/nonprofit.png'
   },
   {
     id: 'tech',
@@ -98,7 +98,7 @@ const industries: Industry[] = [
       'Compelling case studies and success stories',
       'Professional sales and marketing materials'
     ],
-    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: '/images/industriesimage/itsector.png'
   },
   {
     id: 'finance',
@@ -111,7 +111,7 @@ const industries: Industry[] = [
       'Professional marketing materials for financial products',
       'Educational content that positions you as an authority'
     ],
-    image: 'https://images.pexels.com/photos/7821486/pexels-photo-7821486.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: '/images/industriesimage/finance.png'
   },
   {
     id: 'entertainment',
@@ -124,7 +124,7 @@ const industries: Industry[] = [
       'Compelling trailers and video teasers',
       'Consistent branding across multiple platforms'
     ],
-    image: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: '/images/industriesimage/entertainment.png'
   },
   {
     id: 'corporate',
@@ -137,7 +137,7 @@ const industries: Industry[] = [
       'Engaging presentations and annual reports',
       'Impactful internal and external communications'
     ],
-    image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: '/images/industriesimage/corporate.png'
   }
 ]
 

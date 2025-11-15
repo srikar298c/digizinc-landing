@@ -144,7 +144,7 @@ export default function RootLayout({
         <script
           // Replace the src with the script from your Tidio account
           src="//code.tidio.co/YOUR_TIDIO_CODE.js"
-          async
+          defer
         ></script>
       </body>
     </html>

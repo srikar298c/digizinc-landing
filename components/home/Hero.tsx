@@ -32,17 +32,11 @@ const HeroGrowth = () => {
   const starColor = theme === 'dark' ? '#fff' : '#333';
 
   return (
-    <section className="relative text-white bg-cover bg-center bg-no-repeat p-4 sm:p-6 lg:p-8 text-white overflow-hidden">
-      <Image
-        src="/Mask group.png"
-        layout="fill"
-        objectFit="cover"
-        quality={80}
-        priority={true}
-        alt="AI-powered designs background"
-        className="-z-10"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-pink-500/40 via-black/90 to-black/90"></div>
+    <section
+  className="relative text-white bg-cover bg-center bg-no-repeat p-4 pb-0 sm:p-6 lg:p-8 lg:pb-0 overflow-hidden"
+  style={{ backgroundImage: "url('/Maskgroup.png')" }}
+>
+      
       
       {/* Overlay gradient effect */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,0,255,0.3),_transparent_50%)] opacity-60"></div>
@@ -68,24 +62,23 @@ const HeroGrowth = () => {
           Explore Services
         </button>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto p-4 overflow-hidden">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto p-4 pb-0 overflow-hidden max-h-[345px]">
   {/* Left Column */}
   <div className="flex flex-col gap-4">
     {/* Visible on all screens */}
-    <div className="rounded-3xl overflow-hidden border-2 border-secondary/20 hover:border-secondary/50 transition-all shadow-lg shadow-secondary/20 bg-[#ffffff]/40 p-2">
-      <img 
-        src="/Rectangle 11631.png" 
-        alt="AI Code Interface with Flowing Data" 
-        className="w-full h-auto object-cover rounded-3xl"
-      />
+    <div className="hidden sm:block rounded-3xl overflow-hidden border-2 border-secondary/20 hover:border-secondary/50 transition-all shadow-lg shadow-secondary/20 bg-[#ffffff]/40 p-1 mt-4">
+      <img
+  src="images/herosectionimage/Rectangle11631.jpeg"
+  alt="AI Code Interface with Flowing Data"
+  className="w-full h-[120px] object-cover rounded-3xl"
+/>
     </div>
-
     {/* Hide on small screens, show from md and up */}
-    <div className="hidden md:block rounded-3xl overflow-hidden border-2 border-primary/20 hover:border-primary/50 transition-all shadow-lg shadow-primary/20 bg-[#ffffff]/40 p-2">
+    <div className="hidden sm:block rounded-3xl overflow-hidden border-2 border-primary/20 hover:border-primary/50 transition-all shadow-lg shadow-primary/20 bg-[#ffffff]/40 p-1">
       <img 
-        src="/Rectangle 11632.png"
+        src="images/herosectionimage/Rectangle11632.jpeg"
         alt="E-commerce Shopping Cart with Neon Effects" 
-        className="w-full h-auto object-cover rounded-3xl"
+        className="w-full h-[180px] object-cover rounded-3xl"
       />
     </div>
   </div>
@@ -93,31 +86,31 @@ const HeroGrowth = () => {
   {/* Middle Column */}
   <div className="flex flex-col gap-4">
     {/* Always visible */}
-    <div className="rounded-3xl overflow-hidden border-2 border-primary/20 hover:border-primary/50 transition-all shadow-lg shadow-primary/20 bg-[#ffffff]/40 p-2">
+    <div className="hidden sm:block rounded-3xl overflow-hidden border-2 border-primary/20 hover:border-primary/50 transition-all shadow-lg shadow-primary/20 bg-[#ffffff]/40 p-1">
       <img 
-        src="/Rectangle 11630.png"
+        src="images/herosectionimage/Rectangle11683.jpeg"
         alt="Digital Books with Holographic Effects" 
-        className="w-full h-auto object-cover rounded-3xl"
+        className="w-full h-[160px] object-cover rounded-3xl"
       />
     </div>
 
     {/* Only visible on lg and up */}
-    <div className="hidden lg:block rounded-3xl overflow-hidden border-2 border-primary/20 hover:border-primary/50 transition-all shadow-lg shadow-primary/20 bg-[#ffffff]/40 p-2">
+    <div className="hidden sm:block rounded-3xl overflow-hidden border-2 border-primary/20 hover:border-primary/50 transition-all shadow-lg shadow-primary/20 bg-[#ffffff]/40 p-1">
       <img 
-        src="/Rectangle 11635.png"
+        src="images/herosectionimage/Rectangle11635.jpeg"
         alt="Neon City Skyline" 
-        className="w-full h-auto object-cover rounded-3xl"
+        className="w-full h-[160px] object-cover rounded-3xl"
       />
     </div>
   </div>
 
   {/* Right Column */}
   {/* Visible only on lg and up */}
-  <div className="hidden lg:block rounded-3xl overflow-hidden border-2 border-secondary/20 hover:border-secondary/50 transition-all shadow-lg shadow-secondary/20 bg-[#ffffff]/40 p-2">
+  <div className="rounded-3xl overflow-hidden border-2 border-secondary/20 hover:border-secondary/50 transition-all shadow-lg shadow-secondary/20 bg-[#ffffff]/40 p-1">
     <img 
-      src="/Rectangle 11634.png"
+      src="images/herosectionimage/Rectangle11634.jpeg"
       alt="DNA Technology Visualization" 
-      className="w-full h-auto object-cover rounded-3xl"
+      className="w-full h-[340px] object-cover rounded-3xl"
     />
   </div>
 </div>

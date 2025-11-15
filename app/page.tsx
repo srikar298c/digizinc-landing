@@ -28,6 +28,7 @@ const SectionWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) =
     whileInView="visible"
     viewport={{ once: true, amount: 0.2 }}
     variants={sectionAnimation}
+    style={{ willChange: 'transform, opacity' }}
   >
     {children}
   </motion.div>
