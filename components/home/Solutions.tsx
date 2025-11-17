@@ -43,16 +43,16 @@ const services = [
 
 const Solutions = () => {
   return (
-    <section className="bg-[#0b0014] text-white py-20 px-6 md:px-12 lg:px-20 overflow-hidden">
+    <section className="bg-[#0b0014] text-white py-20 px-6 md:px-12 lg:px-20 overflow-hidden font-bricolage">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-semibold mb-4">
+        <h2 className="text-4xl md:text-5xl font-semibold mb-4 font-bricolage font-bricolage-heading ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-400">
             AI-Powered
           </span>{" "}
           Marketing Solutions
         </h2>
 
-        <p className="text-gray-300 max-w-3xl mx-auto mb-12">
+        <p className="font-bricolage text-gray-300 max-w-3xl mx-auto mb-12">
           We provide comprehensive digital marketing solutions to help your
           business grow and succeed online.
         </p>
@@ -78,7 +78,7 @@ const Solutions = () => {
                   <div className="bg-[#2b013a] p-3 rounded-xl text-xl text-purple-400 group-hover:text-pink-400 transition-colors duration-300">
                     {service.icon}
                   </div>
-                  <h3 className="font-semibold text-lg text-white group-hover:text-purple-300 transition-colors duration-300">
+                  <h3 className="font-bricolage font-semibold text-lg text-white group-hover:text-purple-300 transition-colors duration-300">
                     {service.title}
                   </h3>
                 </div>

@@ -19,8 +19,8 @@ const poppins = Poppins({
 });
 const bricolage = Bricolage_Grotesque({
   subsets: ["latin"],
-  weight: ["400"], // thin/regular weight
   variable: "--font-bricolage",
+  display: "swap",
 });
 const dancingScript = Dancing_Script({
   subsets: ["latin"],

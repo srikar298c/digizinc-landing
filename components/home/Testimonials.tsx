@@ -107,7 +107,7 @@ const getInitials = (name: string) => {
 
 const Testimonials = () => {
   return (
-    <section className="font-bricolage py-16 md:py-24 bg-gradient-to-b from-background to-background/95 text-foreground relative overflow-hidden">
+    <section className="font-bricolage py-16 md:py-24 text-foreground relative overflow-hidden">
       <div className="container font-bricolage px-4 md:px-6 relative z-10">
         <motion.div
           className="text-center mb-16"
@@ -138,14 +138,15 @@ const Testimonials = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className="group bg-white dark:bg-secondary-900 p-8 rounded-2xl h-full
+                  className="group bg-white p-8 rounded-2xl h-full
                              border border-primary/20 dark:border-primary/10
                              transition-all duration-500 ease-out
-                             hover:shadow-xl hover:shadow-primary/20
-                             hover:border-primary/30 dark:hover:border-primary/20
                              hover:-translate-y-1 shadow-inner
                              relative overflow-hidden
                              before:absolute before:inset-0 before:bg-gradient-to-br before:from-primary/5 before:to-secondary/5 before:opacity-0 before:transition-opacity before:duration-500 group-hover:before:opacity-10"
+                             style={{
+    background: "linear-gradient(153.75deg, rgba(64, 25, 103, 0.12) 7.22%, rgba(127, 50, 205, 0.12) 96.19%)"
+  }}
                 >
                   <p className="text-foreground/90 mb-8 text-lg leading-relaxed italic">
                     "{testimonial.content}"

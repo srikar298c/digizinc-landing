@@ -58,7 +58,15 @@ const HeroGrowth = () => {
         </p>
 
         {/* Button */}
-        <button className="mt-8 px-6 py-3 font-bricolage rounded-full bg-gradient-to-r from-white/20 to-white/50 hover:from-purple-500 hover:to-pink-500 text-white font-medium shadow-lg transition-all">
+        <button
+          onClick={() => {
+            const servicesSection = document.getElementById('services');
+            if (servicesSection) {
+              servicesSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
+          className="mt-8 px-6 py-3 font-bricolage rounded-full bg-gradient-to-r from-white/20 to-white/50 hover:from-purple-500 hover:to-pink-500 text-white font-medium shadow-lg transition-all"
+        >
           Explore Services
         </button>
       </div>

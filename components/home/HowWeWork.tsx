@@ -49,7 +49,7 @@ const Step = ({ step, index }: { step: any; index: number }) => {
   };
 
   return (
-    <div ref={ref} className={`relative flex w-full ${isEven ? 'justify-start' : 'justify-end'} font-bricolage`}>
+    <div ref={ref} className={`relative flex w-full ${isEven ? 'justify-start' : 'justify-end'} font-bricolage `}>
       {/* Mobile view */}
       <div className="lg:hidden w-full flex items-start">
         <div className="relative w-1/6 flex justify-center">
